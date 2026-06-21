@@ -1,0 +1,3 @@
+model_version,selected_threshold,test_precision,test_recall,test_f1,test_roc_auc,test_pr_auc,true_positives,false_positives,false_negatives,true_negatives,test_alerts,review_cost,missed_aml_cost,protected_value,net_expected_cost,production_decision
+Extra Trees WITH Laundering_type,0.31,1.0,1.0,1.0,1.0,1.0,1481,0,0,1424247,1481,37025,0,1481000,-1443975,Not production-approved until feature lineage confirms Laundering_type is available before decisioning.
+Extra Trees WITHOUT Laundering_type,0.25,0.038,0.5219,0.0709,0.9348,0.3559,773,19566,708,1404681,20339,508475,3540000,773000,3275475,Production-safer candidate because the suspected post-event feature is removed.

@@ -1,0 +1,7 @@
+model,threshold,accuracy,precision,recall,f1,roc_auc,pr_auc,tn,fp,fn,tp
+Extra Trees Balanced,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1424247,0,0,1481
+Random Forest Balanced,0.5,1.0,1.0,0.9959,0.998,1.0,1.0,1424247,0,6,1475
+XGBoost Weighted,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1424247,0,0,1481
+HistGradientBoosting Numeric,0.5,0.9994,0.9029,0.4585,0.6082,0.9773,0.5881,1424174,73,802,679
+Logistic Regression Balanced,0.5,0.8023,0.0052,0.9932,0.0103,0.9788,0.0452,1142357,281890,10,1471
+Dummy Baseline,0.5,0.999,0.0,0.0,0.0,0.5,0.001,1424247,0,1481,0

@@ -1,0 +1,7 @@
+model,validation_selected_threshold,test_alerts,test_true_aml_caught,test_missed_aml,test_false_alerts,test_precision,test_recall,review_cost,missed_aml_cost,protected_value,net_expected_cost
+Extra Trees Balanced,0.3,1481,1481,0,0,1.0,1.0,37025,0,1481000,-1443975
+Random Forest Balanced,0.22,1481,1481,0,0,1.0,1.0,37025,0,1481000,-1443975
+XGBoost Weighted,0.08,1481,1481,0,0,1.0,1.0,37025,0,1481000,-1443975
+HistGradientBoosting Numeric,0.01,6695,1034,447,5661,0.1544,0.6982,167375,2235000,1034000,1368375
+Logistic Regression Balanced,0.99,213227,1445,36,211782,0.0068,0.9757,5330675,180000,1445000,4065675
+Dummy Baseline,0.01,0,0,1481,0,0.0,0.0,0,7405000,0,7405000
